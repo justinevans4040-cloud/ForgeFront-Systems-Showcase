@@ -1,5 +1,9 @@
 # ForgeFront Systems
 
+<p align="center">
+  <img src="https://forgefront-systems.vercel.app/assets/forgefront-home-forge-hero.png" alt="ForgeFront Systems" width="100%" />
+</p>
+
 **Agentic software. Vertical products. Intelligent systems built to do real work.**
 
 [ForgeFront Systems](https://forgefront-systems.vercel.app/index.html) · [Justin Evans on GitHub](https://github.com/justinevans4040-cloud)
@@ -13,6 +17,21 @@ This repository is a **sanitized capability showcase** for evaluating ForgeFront
 It is deliberately non-operational. It does **not** publish proprietary source code, system prompts, credentials, private datasets, internal orchestration, routing logic, runbooks, infrastructure details, model logic, or deployable agent internals.
 
 What it does show is the part that matters first: **what ForgeFront can build, where it creates leverage, and what might be worth building together.**
+
+## Public Visuals
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-titan.webp" alt="TITAN" width="100%" /><br><strong>TITAN</strong></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-athere-mesh.webp" alt="Athere Mesh" width="100%" /><br><strong>Athere Mesh</strong></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-odin-lineforge.webp" alt="ODIN LINEFORGE" width="100%" /><br><strong>ODIN LINEFORGE</strong></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-green-rack-runner.webp" alt="Rack Runner" width="100%" /><br><strong>Rack Runner</strong></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-python-pal.webp" alt="Python Pal" width="100%" /><br><strong>Python Pal</strong></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/terminal-forge-emblem.png" alt="Terminal Forge" width="100%" /><br><strong>Terminal Forge</strong></td>
+</tr>
+</table>
 
 ## Specialized Agent Systems
 

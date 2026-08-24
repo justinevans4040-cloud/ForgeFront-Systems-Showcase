@@ -4,80 +4,73 @@
 
 [ForgeFront Systems](https://forgefront-systems.vercel.app/index.html) · [Justin Evans on GitHub](https://github.com/justinevans4040-cloud)
 
-> **Founder update:** ForgeFront Systems has been selected for **The Blox**, an entrepreneurship reality competition. The company is entering commercialization with a coded agent fleet and multiple product lines moving toward market deployment.
+> **Founder update:** ForgeFront Systems has been selected for **The Blox**, an entrepreneurship reality competition, as the company moves deeper into commercialization and partnership development.
 
-![ForgeFront Systems showcase preview](assets/showcase-preview.png)
+## Private Core. Public Proof.
 
-## What this repository is
+This repository is a **sanitized capability showcase** for evaluating ForgeFront Systems, its product portfolio, and potential collaboration.
 
-This is a **public capability showcase**, intentionally separated from ForgeFront's proprietary repositories. It exists to show what the company builds, the problems its systems solve, and where collaboration can create leverage.
+It is deliberately non-operational. It does **not** publish proprietary source code, system prompts, credentials, private datasets, internal orchestration, routing logic, runbooks, infrastructure details, model logic, or deployable agent internals.
 
-**This repository contains no proprietary source code, credentials, system prompts, private datasets, internal orchestration logic, deployable agent internals, or security-sensitive implementation detail.**
+What it does show is the part that matters first: **what ForgeFront can build, where it creates leverage, and what might be worth building together.**
 
-## The Agent Fleet
+## Specialized Agent Systems
 
-ForgeFront's fleet is built around specialized roles rather than a single generic assistant.
+ForgeFront develops specialized operators rather than treating every problem as a generic chatbot.
 
-| Agent | Public-facing role |
-|---|---|
-| **Prime** | High-level command, coordination, prioritization, and execution routing |
-| **Vale** | Founder-facing operational interface and decision support |
-| **Nyx** | Research, intelligence gathering, pattern discovery, and synthesis |
-| **Loom** | Workflow composition, connective tissue, and process orchestration |
-| **Rune** | Structured analysis, rules, verification, and reasoning support |
-| **Echo** | Communication, continuity, recall, and outward-facing interaction support |
-| **Caretaker** | Reliability, system health, continuity, and operational stewardship |
-| **Titan** | High-capability command surface for complex multi-system operations |
+- **Miss Vale** — founder command
+- **Miss Vale Prime** — private founder-level command
+- **NYX** — engineering and architecture
+- **LOOM** — runtime operations
+- **RUNE** — validation and integrity
+- **ECHO** — signal and alignment
+- **The Caretaker** — resilience and system health
+- **Titan** — advanced command-surface work in hardening
 
-[Explore the agent fleet →](agents/README.md)
+[Explore the public-safe agent view →](agents/README.md)
 
 ## Products & Platforms
 
-ForgeFront develops vertical software around real operator workflows.
+ForgeFront also builds vertical products around real operator workflows.
 
-- **SpeakEasy by ForgeFront Systems** — voice-to-text desktop software built around speed, privacy, and simplicity.
-- **Rack Runner** — pool tournament and bar-operations software for brackets, payouts, player tracking, ranking, and TV-ready event views.
-- **DCE Solar Command** — deterministic live-call workflow software for qualification, objections, appointment readiness, lead state, and handoff.
-- **ODIN LINEFORGE** — operator-grade sports analysis and decision-support software focused on structured market, matchup, risk, and confidence analysis.
-- **Python Pal** — bilingual Python learning software designed around a broad, structured curriculum.
-- **Tom's Internet Guide** — practical digital-literacy software for everyday smartphone and Windows use.
-- **Athere Mesh / Titan** — intelligent systems work focused on distributed agents, command interfaces, and coordinated execution.
+- **SpeakEasy by ForgeFront Systems** — privacy-minded desktop voice-to-text software.
+- **Rack Runner** — pool tournament and venue-operations software.
+- **DCE Solar Command** — structured sales-call workflow and handoff software.
+- **ODIN LINEFORGE** — sports-analysis and decision-support software.
+- **Viral Forge** — creator-production software for turning a brief into finished media assets.
+- **Python Pal** — bilingual Python learning software.
+- **Tom's Internet Guide** — practical digital-literacy software for smartphones and Windows.
+- **Athere Mesh** — ForgeFront intelligent-systems work.
+- **Titan** — active systems work currently in hardening.
 
-[Explore products →](products/README.md)
+[Explore the product portfolio →](products/README.md)
+
+## QRA
+
+QRA is ForgeFront's rapid-response systems work for situations where evidence, recovery, validation, and controlled action matter more than conversational polish.
+
+This showcase describes the capability without publishing internal identities, sequencing, implementation rules, recovery mechanics, security behavior, or orchestration details.
+
+[Explore the public-safe QRA view →](qra/README.md)
 
 ## Collaboration
 
-ForgeFront is interested in collaborations where each side contributes a real edge.
+ForgeFront is interested in collaborations where both sides bring something real to the table: agent systems, vertical software, product engineering, automation, distribution, domain knowledge, or a market worth attacking together.
 
-Good fits include:
+Potential models include joint product development, white-label or co-branded systems, capability integration, technical partnerships, and commercialization partnerships.
 
-- specialized intelligence behind polished client-facing products
-- vertical AI systems for industries with messy workflows
-- white-label or co-branded agentic products
-- workflow automation connected to business software
-- joint go-to-market opportunities
-- productization partnerships where one side owns deep domain logic and the other accelerates experience, distribution, or delivery
+[Explore collaboration opportunities →](collaboration/README.md)
 
-[Collaboration opportunities →](collaboration/README.md)
+## The Architect's Renaissance
 
-## Why ForgeFront
+ForgeFront also has a narrative side. **The Architect's Renaissance** is a fiction series by Justin Evans, writing as Marcus Cross.
 
-ForgeFront's thesis is simple: **AI becomes valuable when it stops being a chat window and starts becoming part of the operating system of the work.**
+[Explore the series →](story/architects-renaissance.md)
 
-The company focuses on systems that understand the current stage of a workflow, retain context, surface the next useful move, coordinate specialized capabilities, and reduce the amount of human glue required to make complicated work happen.
+## Intellectual-Property Boundary
 
-## Current stage
+The showcase explains **capability and outcome**, not reproducible implementation.
 
-The core agent fleet is coded and ready for deployment. Product work is shifting from architecture and build-out into hardening, productization, distribution, partnerships, and commercial execution.
+Everything required to reproduce ForgeFront's protected systems stays outside this repository.
 
-## Contact
-
-Founder: **Justin Evans**  
-ForgeFront Systems: https://forgefront-systems.vercel.app/index.html  
-GitHub: https://github.com/justinevans4040-cloud
-
----
-
-### Intellectual-property boundary
-
-This showcase is deliberately descriptive rather than reproducible. Public materials explain **what** ForgeFront systems do and **why** they matter without exposing the proprietary details of **how** the systems are implemented.
+**All rights reserved.**

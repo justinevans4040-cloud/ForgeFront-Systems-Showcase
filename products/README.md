@@ -4,6 +4,19 @@
 
 This showcase is intentionally descriptive rather than reproducible. Product internals, protected logic, prompts, models, formulas, orchestration, deployment, and source code remain outside this repository.
 
+<table>
+<tr>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-titan.webp" alt="TITAN" width="100%" /></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-athere-mesh.webp" alt="Athere Mesh" width="100%" /></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-odin-lineforge.webp" alt="ODIN LINEFORGE" width="100%" /></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-green-rack-runner.webp" alt="Rack Runner" width="100%" /></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-python-pal.webp" alt="Python Pal" width="100%" /></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/terminal-forge-emblem.png" alt="Terminal Forge" width="100%" /></td>
+</tr>
+</table>
+
 ## SpeakEasy by ForgeFront Systems
 Privacy-minded desktop voice-to-text software built around speed and simplicity.
 

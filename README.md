@@ -8,88 +8,145 @@
 
 [ForgeFront Systems](https://forgefront-systems.vercel.app/index.html) · [Justin Evans on GitHub](https://github.com/justinevans4040-cloud)
 
-> **Founder update:** ForgeFront Systems has been selected for **The Blox**, an entrepreneurship reality competition, as the company moves deeper into commercialization and partnership development.
+## Portfolio
 
-## Private Core. Public Proof.
+ForgeFront Systems is the independent software, intelligent-systems, automation, infrastructure, and creative-technology portfolio of **Justin Evans**.
 
-This repository is a **sanitized capability showcase** for evaluating ForgeFront Systems, its product portfolio, and potential collaboration.
+The work spans commercial desktop software, vertical operator tools, local AI systems, distributed infrastructure, technical learning products, recovery and validation systems, and original narrative IP. The projects are different on purpose. The common thread is building the missing tool, turning it into a working system, and hardening it until it can survive outside the idea that created it.
 
-It is deliberately non-operational. It does **not** publish proprietary source code, system prompts, credentials, private datasets, internal orchestration, routing logic, runbooks, infrastructure details, model logic, or deployable agent internals.
+This repository is the **public-safe portfolio layer**. It shows products, capability, current direction, and selected visual proof without publishing proprietary source code, private prompts, credentials, model logic, internal orchestration, infrastructure secrets, or protected story material.
 
-What it does show is the part that matters first: **what ForgeFront can build, where it creates leverage, and what might be worth building together.**
+## Current Portfolio Map
 
-## Public Visuals
+| Lane | Systems / Products | What it represents |
+|---|---|---|
+| Commercial software | SpeakEasy, Rack Runner, Python Pal, Tom's Internet Guide | Focused desktop and learning products with real packaging, release, and deployment work |
+| Vertical operator systems | DCE Solar Command, ODIN LINEFORGE, Viral Forge | Software built around domain-specific workflows rather than generic chat |
+| Agent & execution systems | The Britt, Miss Vale, Miss Vale Prime, NYX, LOOM, RUNE, ECHO, The Caretaker | Specialized local and founder-facing operators with distinct responsibilities |
+| Runtime & infrastructure | WAKE Engine, WAKE Engine V6, Athere Mesh, Titan, Terminal Forge | Local runtime, orchestration, edge/distributed systems, and controlled execution work |
+| Learning platform | ForgeFront Learning Platform, Python Pal, Terminal Forge | Reusable bilingual learning, simulation, evidence, mastery, and lab architecture |
+| Recovery & integrity | WAKE runtime recovery, validation tooling, portfolio recovery systems | Preservation, proof, continuity, and source-of-truth discipline |
+| Literary & narrative IP | The Architect's Renaissance, The Sixth Gate | Original fiction, worldbuilding, cover art, project bibles, and protected manuscripts |
+
+## Commercial & Vertical Products
 
 <table>
 <tr>
-<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-titan.webp" alt="TITAN" width="100%" /><br><strong>TITAN</strong></td>
-<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-athere-mesh.webp" alt="Athere Mesh" width="100%" /><br><strong>Athere Mesh</strong></td>
-<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-odin-lineforge.webp" alt="ODIN LINEFORGE" width="100%" /><br><strong>ODIN LINEFORGE</strong></td>
-</tr>
-<tr>
 <td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-green-rack-runner.webp" alt="Rack Runner" width="100%" /><br><strong>Rack Runner</strong></td>
 <td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-python-pal.webp" alt="Python Pal" width="100%" /><br><strong>Python Pal</strong></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-odin-lineforge.webp" alt="ODIN LINEFORGE" width="100%" /><br><strong>ODIN LINEFORGE</strong></td>
+</tr>
+</table>
+
+### SpeakEasy by ForgeFront Systems
+Private, on-device voice-to-text desktop software with an active Microsoft Store product identity, hardened Electron packaging, Store licensing work, and automated Windows verification.
+
+### Rack Runner
+Offline-first pool tournament operations software. The current production lineage handles registration, double-elimination progression, live table assignment, scoring, check-in, payments, payouts, backups, and director reporting.
+
+### Python Pal
+Bilingual English/Spanish Python-learning software with runnable exercises, local progress, desktop packaging, a signed Android release path, and Microsoft Store packaging.
+
+### Tom's Internet Guide
+Offline-capable digital-literacy and internet-safety software covering accounts, privacy, permissions, passwords, scams, subscriptions, tracking, verification, recovery, and safe online decisions in plain language.
+
+### DCE Solar Command
+A live BDR call-assist workspace built around the actual sales-call workflow. It keeps call stage, qualification, appointment readiness, next move, intelligence, guardrails, and handoff information in one operator view.
+
+### ODIN LINEFORGE
+Sports-analysis and decision-support software backed by active modeling, audit, event-data, MLB research, parlay research, and operator-interface work.
+
+### Viral Forge
+Creator-production software focused on moving a brief toward finished platform-ready media while keeping the protected production logic private.
+
+[Explore products & platforms →](products/README.md)
+
+## Agent & Execution Systems
+
+ForgeFront builds specialized operators around real responsibilities instead of presenting one assistant with a drawer full of costumes.
+
+- **The Britt** — Windows-first local execution assistant with real file, PowerShell, desktop, scheduling, Google Drive, memory, diagnostics, and configured Ubuntu SSH tooling.
+- **Miss Vale** — founder command and operational alignment.
+- **Miss Vale Prime** — protected founder-level command architecture.
+- **NYX** — engineering and architecture.
+- **LOOM** — runtime operations and resource control.
+- **RUNE** — validation, integrity, and regression protection.
+- **ECHO** — signal and alignment.
+- **The Caretaker** — resilience and system health.
+- **Titan** — advanced command-surface and systems work in active hardening.
+
+[Explore the public-safe agent view →](agents/README.md)
+
+## Runtime, Infrastructure & Learning
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-titan.webp" alt="Titan" width="100%" /><br><strong>Titan</strong></td>
+<td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/product-athere-mesh.webp" alt="Athere Mesh" width="100%" /><br><strong>Athere Mesh</strong></td>
 <td align="center" width="33%"><img src="https://forgefront-systems.vercel.app/assets/terminal-forge-emblem.png" alt="Terminal Forge" width="100%" /><br><strong>Terminal Forge</strong></td>
 </tr>
 </table>
 
-## Specialized Agent Systems
+### WAKE Engine / WAKE Engine V6
+Local runtime and orchestration work spanning state, scheduling, monitoring, agent work coordination, packaging, recovery, and system telemetry.
 
-ForgeFront develops specialized operators rather than treating every problem as a generic chatbot.
+### Athere Mesh
+ForgeFront distributed and sovereign-infrastructure work, including edge-node and command architecture. Public material stays at the capability level while protected topology and implementation remain private.
 
-- **Miss Vale** — founder command
-- **Miss Vale Prime** — private founder-level command
-- **NYX** — engineering and architecture
-- **LOOM** — runtime operations
-- **RUNE** — validation and integrity
-- **ECHO** — signal and alignment
-- **The Caretaker** — resilience and system health
-- **Titan** — advanced command-surface work in hardening
+### Titan
+An active systems lane focused on command surfaces, orchestration, node work, and hardening across the broader ForgeFront stack.
 
-[Explore the public-safe agent view →](agents/README.md)
+### ForgeFront Learning Platform
+A reusable learning architecture designed to stop every educational product from rebuilding the same machinery. It connects bilingual curriculum, mastery, simulations, local progress, evidence, recovery, analytics, and controlled lab execution.
 
-## Products & Platforms
+### Terminal Forge
+The controlled practical-lab layer for scenario handoff, bounded execution, evidence, completion records, and technical practice.
 
-ForgeFront also builds vertical products around real operator workflows.
+## Recovery, Validation & Continuity
 
-- **SpeakEasy by ForgeFront Systems** — privacy-minded desktop voice-to-text software.
-- **Rack Runner** — pool tournament and venue-operations software.
-- **DCE Solar Command** — structured sales-call workflow and handoff software.
-- **ODIN LINEFORGE** — sports-analysis and decision-support software.
-- **Viral Forge** — creator-production software for turning a brief into finished media assets.
-- **Python Pal** — bilingual Python learning software.
-- **Tom's Internet Guide** — practical digital-literacy software for smartphones and Windows.
-- **Athere Mesh** — ForgeFront intelligent-systems work.
-- **Titan** — active systems work currently in hardening.
+ForgeFront's recovery work is part of the portfolio because the systems became too valuable to trust to memory or a single machine.
 
-[Explore the product portfolio →](products/README.md)
+Current work includes repository-level canonical-source rules, runtime recovery, forensic inventory, SHA-256 verification, release records, protected backups, source-selection guards, deployment verification, and explicit separation between production authority and historical experiments.
 
-## QRA
+This is not housekeeping around the products. It is the infrastructure that keeps the products real.
 
-QRA is ForgeFront's rapid-response systems work for situations where evidence, recovery, validation, and controlled action matter more than conversational polish.
+## Literary & Narrative Work
 
-This showcase describes the capability without publishing internal identities, sequencing, implementation rules, recovery mechanics, security behavior, or orchestration details.
+### The Architect's Renaissance
+An original fiction series by **Justin Evans** with its own world, characters, visual identity, project bible, manuscripts, cover art, blog material, and private working vault.
 
-[Explore the public-safe QRA view →](qra/README.md)
+Current series structure:
+
+1. **The Architect's Forge** — in progress
+2. **The Aurora's Dawn** — notes / planned
+3. **The Divergence** — planned
+4. **Title withheld** — planned
+
+### The Sixth Gate
+A separate literary project preserved alongside The Architect's Renaissance in the current literary repository.
+
+[Explore the public literary view →](story/architects-renaissance.md)
+
+## Public Proof, Private Core
+
+The portfolio is designed to make capability inspectable without making protected systems reproducible.
+
+**Public:** product purpose, visual identity, verified release facts, operator outcomes, selected architecture language, collaboration surfaces.
+
+**Private:** proprietary source, credentials, system prompts, protected orchestration, internal routing, private datasets, secrets, unpublished manuscripts, protected recovery behavior, and implementation details that would allow reproduction of ForgeFront IP.
 
 ## Collaboration
 
-ForgeFront is interested in collaborations where both sides bring something real to the table: agent systems, vertical software, product engineering, automation, distribution, domain knowledge, or a market worth attacking together.
+ForgeFront is open to serious collaboration where both sides bring something concrete: product engineering, distribution, domain knowledge, agent systems, automation, infrastructure, commercialization, or a market worth attacking together.
 
-Potential models include joint product development, white-label or co-branded systems, capability integration, technical partnerships, and commercialization partnerships.
+Potential structures include joint development, white-label or co-branded products, capability integration, technical partnerships, licensing, and commercialization partnerships.
 
 [Explore collaboration opportunities →](collaboration/README.md)
 
-## The Architect's Renaissance
+## Ownership
 
-ForgeFront also has a narrative side. **The Architect's Renaissance** is a fiction series by Justin Evans, writing as Marcus Cross.
+ForgeFront Systems software, systems, visual identity, product concepts, and protected technical material are proprietary unless a repository explicitly states otherwise.
 
-[Explore the series →](story/architects-renaissance.md)
-
-## Intellectual-Property Boundary
-
-The showcase explains **capability and outcome**, not reproducible implementation.
-
-Everything required to reproduce ForgeFront's protected systems stays outside this repository.
+Literary work, characters, manuscripts, cover art direction, and related narrative IP are © **Justin Evans**.
 
 **All rights reserved.**

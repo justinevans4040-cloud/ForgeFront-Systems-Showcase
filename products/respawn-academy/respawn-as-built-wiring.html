@@ -1,0 +1,88 @@
+<div id="respawn-wiring" role="img" aria-label="Respawn Academy legacy site wiring diagram showing Netlify hosting, static assets, navigation, a simulated demo form, and two external Perplexity app links.">
+  <style>
+    #respawn-wiring { color: var(--foreground); }
+    #respawn-wiring .wire { fill: none; stroke: var(--border); stroke-width: 2; }
+    #respawn-wiring .wire-external { fill: none; stroke: var(--viz-series-2); stroke-width: 2; stroke-dasharray: 7 5; }
+    #respawn-wiring .wire-warning { fill: none; stroke: var(--destructive); stroke-width: 2; stroke-dasharray: 4 4; }
+    #respawn-wiring .node { fill: color-mix(in srgb, var(--card) 88%, transparent); stroke: var(--border); stroke-width: 1.5; }
+    #respawn-wiring .node-primary { fill: color-mix(in srgb, var(--viz-series-1) 18%, var(--card)); stroke: var(--viz-series-1); }
+    #respawn-wiring .node-external { fill: color-mix(in srgb, var(--viz-series-2) 14%, var(--card)); stroke: var(--viz-series-2); }
+    #respawn-wiring .node-warning { fill: color-mix(in srgb, var(--destructive) 10%, var(--card)); stroke: var(--destructive); }
+    #respawn-wiring text { fill: var(--foreground); font-weight: 400; }
+    #respawn-wiring .sub { fill: var(--muted-foreground); }
+    #respawn-wiring svg { width: 100%; height: auto; display: block; }
+    @media (max-width: 520px) { #respawn-wiring .sub { display: none; } }
+  </style>
+  <svg viewBox="0 0 1120 660" aria-labelledby="respawn-wiring-title respawn-wiring-desc">
+    <title id="respawn-wiring-title">Respawn Academy legacy site architecture</title>
+    <desc id="respawn-wiring-desc">Visitors reach a Netlify-hosted static page. The page loads CSS, Google Fonts and JavaScript. Its demo form displays success without sending data. Student and admin previews link to external Perplexity projects whose source was not recovered.</desc>
+    <defs>
+      <marker id="rw-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--border)"></path></marker>
+      <marker id="rw-arrow-ext" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--viz-series-2)"></path></marker>
+      <marker id="rw-arrow-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--destructive)"></path></marker>
+    </defs>
+
+    <path class="wire" marker-end="url(#rw-arrow)" d="M180 90 H255"></path>
+    <path class="wire" marker-end="url(#rw-arrow)" d="M425 90 H500"></path>
+    <path class="wire" marker-end="url(#rw-arrow)" d="M690 90 H765"></path>
+
+    <path class="wire" marker-end="url(#rw-arrow)" d="M595 130 V205 H175 V245"></path>
+    <path class="wire" marker-end="url(#rw-arrow)" d="M595 130 V245"></path>
+    <path class="wire" marker-end="url(#rw-arrow)" d="M595 130 V205 H965 V245"></path>
+
+    <path class="wire" marker-end="url(#rw-arrow)" d="M175 325 V395"></path>
+    <path class="wire" marker-end="url(#rw-arrow)" d="M595 325 V395"></path>
+    <path class="wire-external" marker-end="url(#rw-arrow-ext)" d="M965 325 V395"></path>
+
+    <path class="wire-warning" marker-end="url(#rw-arrow-warn)" d="M595 475 V545"></path>
+    <path class="wire-warning" marker-end="url(#rw-arrow-warn)" d="M965 475 V545"></path>
+
+    <rect class="node" x="20" y="50" width="160" height="80" rx="10"></rect>
+    <text x="100" y="84" text-anchor="middle">Visitor</text>
+    <text class="sub" x="100" y="108" text-anchor="middle">Browser</text>
+
+    <rect class="node-primary" x="255" y="50" width="170" height="80" rx="10"></rect>
+    <text x="340" y="84" text-anchor="middle">respawnacademy.com</text>
+    <text class="sub" x="340" y="108" text-anchor="middle">Custom domain</text>
+
+    <rect class="node" x="500" y="50" width="190" height="80" rx="10"></rect>
+    <text x="595" y="84" text-anchor="middle">Netlify Edge</text>
+    <text class="sub" x="595" y="108" text-anchor="middle">Static hosting</text>
+
+    <rect class="node-primary" x="765" y="50" width="220" height="80" rx="10"></rect>
+    <text x="875" y="84" text-anchor="middle">index.html</text>
+    <text class="sub" x="875" y="108" text-anchor="middle">Single-page marketing site</text>
+
+    <rect class="node" x="55" y="245" width="240" height="80" rx="10"></rect>
+    <text x="175" y="279" text-anchor="middle">style.css + Google Fonts</text>
+    <text class="sub" x="175" y="303" text-anchor="middle">Responsive visual system</text>
+
+    <rect class="node" x="475" y="245" width="240" height="80" rx="10"></rect>
+    <text x="595" y="279" text-anchor="middle">app.js</text>
+    <text class="sub" x="595" y="303" text-anchor="middle">Navigation + animation + form UI</text>
+
+    <rect class="node-external" x="845" y="245" width="240" height="80" rx="10"></rect>
+    <text x="965" y="279" text-anchor="middle">Perplexity links</text>
+    <text class="sub" x="965" y="303" text-anchor="middle">Student app + admin dashboard</text>
+
+    <rect class="node" x="55" y="395" width="240" height="80" rx="10"></rect>
+    <text x="175" y="429" text-anchor="middle">Customer-facing page</text>
+    <text class="sub" x="175" y="453" text-anchor="middle">Eight content sections; no images</text>
+
+    <rect class="node" x="475" y="395" width="240" height="80" rx="10"></rect>
+    <text x="595" y="429" text-anchor="middle">Demo form</text>
+    <text class="sub" x="595" y="453" text-anchor="middle">Browser-only validation</text>
+
+    <rect class="node-external" x="845" y="395" width="240" height="80" rx="10"></rect>
+    <text x="965" y="429" text-anchor="middle">External projects</text>
+    <text class="sub" x="965" y="453" text-anchor="middle">Canonical URLs preserved</text>
+
+    <rect class="node-warning" x="445" y="545" width="300" height="80" rx="10"></rect>
+    <text x="595" y="579" text-anchor="middle">No submission backend</text>
+    <text class="sub" x="595" y="603" text-anchor="middle">No API, email, database, or persistence</text>
+
+    <rect class="node-warning" x="815" y="545" width="300" height="80" rx="10"></rect>
+    <text x="965" y="579" text-anchor="middle">Source not recovered</text>
+    <text class="sub" x="965" y="603" text-anchor="middle">Cloudflare verification at retrieval</text>
+  </svg>
+</div>
